@@ -1,0 +1,380 @@
+@charset "utf-8";
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 微软雅黑;
+  text-decoration: none;
+}
+body {
+  overflow-x: hidden;
+  min-width: 1800px;
+  width: 100%;
+}
+nav {
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  background: white;
+  min-width: 1800px;
+  top: 0;
+  left: 0;
+}
+nav .a1 {
+  width: 140px;
+  height: 60px;
+  display: block;
+  float: left;
+  border-right: 3px solid #DCE0E0;
+}
+nav .a1:hover {
+  background: #F5F5F5;
+}
+nav .a1 img {
+  width: 37px;
+  height: 37px;
+  margin-left: 10px;
+  margin-top: 15px;
+  float: left;
+}
+nav .a1 p {
+  color: #FF5A5F;
+  font-weight: bold;
+  float: left;
+  font-size: 25px;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+nav .div1-1 {
+  float: left;
+  width: 110px;
+  height: 60px;
+  margin-left: 880px;
+}
+nav .div1-1 .a2 {
+  float: left;
+  width: 120px;
+  display: block;
+  text-decoration: none;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+nav .div1-1 .a2 p {
+  width: 80px;
+  height: 30px;
+  border: 2px solid gainsboro;
+  text-align: center;
+  line-height: 30px;
+  color: #000;
+}
+nav .div1-1:hover {
+  background: #F5F5F5;
+}
+nav .under1 {
+  display: none;
+  border: 1px solid red;
+  position: relative;
+  top: 90px;
+  right: -960px;
+  background-color: white;
+  width: 320px;
+  height: 50px;
+}
+nav .under1 p {
+  color: #000;
+  margin-top: -20px;
+}
+.div2 {
+  float: left;
+}
+.div2 ul {
+  list-style: none;
+  float: left;
+}
+.div2 ul li {
+  float: left;
+}
+.div2 ul li a {
+  display: block;
+  text-decoration: none;
+  width: 75px;
+  height: 60px;
+  border-left: 1px solid gainsboro;
+  line-height: 60px;
+  text-align: center;
+  color: #000;
+  font-size: 14px;
+}
+.div2 ul li a:hover {
+  background: #F5F5F5;
+}
+.section1 {
+  width: 100%;
+  height: 440px;
+  background: #00A699;
+  color: white;
+  border: 1px solid black;
+}
+.section1 p {
+  font-size: 52px;
+  font-weight: bold;
+  position: relative;
+  top: 125px;
+  left: 485px;
+}
+.section1 div {
+  width: 950px;
+  height: 80px;
+  background: white;
+  position: relative;
+  top: 160px;
+  left: 270px;
+}
+.section1 div img {
+  width: 35px;
+  height: 35px;
+  margin-top: 25px;
+  margin-left: 25px;
+  float: left;
+}
+.section1 div input {
+  height: 60px;
+  width: 800px;
+  font-size: 20px;
+  float: left;
+  outline: 0;
+  border: 1px solid white;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.section2 {
+  width: 100%;
+  height: 610px;
+}
+.section2 #top {
+  width: 100%;
+  height: 60px;
+  border: 1px solid #DCE0E0;
+}
+.section2 #top a {
+  color: #757575;
+  display: block;
+  margin-left: 160px;
+  font-size: 18px;
+  padding-top: 16px;
+}
+.section2 #center1,
+.section2 .bottom {
+  float: left;
+  width: 300px;
+  height: 450px;
+  margin-top: 50px;
+  margin-left: 150px;
+}
+.section2 #center1 ul,
+.section2 .bottom ul {
+  list-style: none;
+  margin-top: 10px;
+}
+.section2 #center1 ul li,
+.section2 .bottom ul li {
+  font-size: 18px;
+  width: 160px;
+  cursor: pointer;
+  height: 30px;
+  display: block;
+  color: #757575;
+  margin-top: 5px;
+}
+.section2 #center1 ul li:hover,
+.section2 .bottom ul li:hover {
+  color: #BBBBBB;
+}
+.section2 #center2 {
+  display: none;
+  float: left;
+  width: 300px;
+  height: 450px;
+  margin-top: 50px;
+  margin-left: 150px;
+}
+.section2 #center2 ul {
+  list-style: none;
+  margin-top: 10px;
+}
+.section2 #center2 ul a {
+  font-size: 18px;
+  width: 160px;
+  height: 30px;
+  display: block;
+  color: #757575;
+  margin-top: 5px;
+}
+.section2 #center2 ul a:hover {
+  color: #BBBBBB;
+}
+.section2 #center2 ul #li1 {
+  color: #00A699;
+  font-size: 18px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+.section2 #center2 ul .li2 {
+  font-weight: bolder;
+  color: black;
+}
+.section2 .bottom {
+  float: left;
+  width: 900px;
+  height: 450px;
+  margin-left: 20px;
+}
+.section2 .bottom ul {
+  list-style: none;
+}
+.section2 .bottom ul img {
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+.section2 .bottom ul .li1 p {
+  font-size: 38px;
+  margin-top: -5px;
+}
+.section2 .bottom ul .li1 div {
+  width: 70px;
+  height: 1px;
+  border-bottom: 1px solid gainsboro;
+  margin-top: 20px;
+}
+.section2 .bottom ul .li2 {
+  height: 80px;
+  width: 700px;
+  float: left;
+  line-height: 80px;
+  border-bottom: 1px solid gainsboro;
+}
+.section2 .bottom ul .li2 a {
+  color: #484848;
+  font-size: 18px;
+}
+.section2 .bottom ul .li2 a:hover {
+  text-decoration: underline;
+  color: #484848;
+}
+footer {
+  width: 100%;
+  height: 520px;
+  background-image: url("../img/background-317dd7c2cb678ddbdb0a983d511cb9a0.png");
+  background-repeat: no-repeat;
+  background-size: 100% 520px;
+  background-color: #2B2D2E;
+}
+footer .select1 {
+  margin-left: 160px;
+  width: 300px;
+  height: 200px;
+  float: left;
+  margin-top: 50px;
+}
+footer .select1 .select1_1,
+footer .select1 .select1_2 {
+  width: 250px;
+  height: 50px;
+  font-size: 18px;
+  background: #484848;
+  opacity: 1;
+  color: white;
+  border: 1px solid #2B2D2E;
+}
+footer .select1 .select1_2 {
+  margin-top: 15px;
+}
+footer .select1 .p1,
+footer .select1 .p2,
+footer .select1 .p3 {
+  color: white;
+}
+footer .gs,
+footer .find,
+footer .lend {
+  float: left;
+  width: 190px;
+  height: 220px;
+  margin-top: 50px;
+}
+footer .gs p,
+footer .find p,
+footer .lend p {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+footer .gs ul,
+footer .find ul,
+footer .lend ul {
+  margin-top: 20px;
+  list-style: none;
+}
+footer .gs ul a,
+footer .find ul a,
+footer .lend ul a {
+  color: white;
+  font-size: 15px;
+  margin-top: 5px;
+}
+footer .gs ul a:hover,
+footer .find ul a:hover,
+footer .lend ul a:hover {
+  color: #B5B5AC;
+}
+footer .hr {
+  border-bottom: 1px solid #B5B5AC;
+  clear: both;
+  width: 1100px;
+  height: 1px ;
+  margin-left: 150px;
+  position: relative;
+  top: 50px;
+}
+footer .bottom {
+  color: white;
+  margin-left: 600px;
+  margin-top: 65px;
+}
+footer .bottom .p7 {
+  font-size: 18px;
+  color: gainsboro;
+}
+footer .bottom .bott1,
+footer .bottom .bott2 {
+  width: 35px;
+  height: 35px;
+  border: 1px solid #B5B5AC;
+  border-radius: 50px;
+  margin-top: 15px;
+  margin-left: -11px;
+}
+footer .bottom .bott1:hover,
+footer .bottom .bott2:hover {
+  opacity: 0.7;
+}
+footer .bottom .bott2 {
+  position: relative;
+  left: 55px;
+  top: -53px;
+}
+footer .bottom img {
+  width: 20px;
+  height: 20px;
+  margin-top: 5px;
+  margin-left: 8px;
+}
+footer .bottom .p8 {
+  font-size: 16px;
+  color: gainsboro;
+  opacity: 0.6;
+  margin-top: -45px;
+  margin-left: -20px;
+}

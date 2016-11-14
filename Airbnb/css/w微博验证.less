@@ -1,0 +1,363 @@
+@charset"utf-8";
+*{
+  padding: 0;
+  margin:0;
+  font-family: 微软雅黑;
+  text-decoration: none;
+}
+body{
+  overflow-x: hidden;
+  min-width: 1800px;
+  width: 100%;
+}
+nav {
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  background: white;
+  min-width: 1800px;
+  top: 0;
+  left: 0;
+  .a1 {
+    width: 140px;
+    height: 60px;
+    display: block;
+    float: left;
+    border-right: 3px solid #DCE0E0;
+    &:hover {
+      background: #F5F5F5;
+    }
+    img {
+      width: 37px;
+      height: 37px;
+      margin-left: 10px;
+      margin-top: 15px;
+      float: left;
+    }
+    p {
+      color: #FF5A5F;
+      font-weight: bold;
+      float: left;
+      font-size: 25px;
+      margin-top: 15px;
+      margin-left: 5px;
+    }
+  }
+  .div1-1 {
+    float: left;
+    width: 110px;
+    height: 60px;
+    margin-left: 880px;
+    .a2 {
+      float: left;
+      width: 120px;
+      display: block;
+      text-decoration: none;
+      margin-top: 15px;
+      margin-left: 10px;
+      p {
+        width: 80px;
+        height: 30px;
+        border: 2px solid gainsboro;
+        text-align: center;
+        line-height: 30px;
+        color: #000;
+      }
+    }
+    &:hover {
+      background: #F5F5F5;
+    }
+  }
+  .under1{
+    display: none;
+    border: 1px solid red;
+    position: relative;
+    top: 90px;
+    right: -960px;
+    background-color: white;
+    width: 320px;
+    height: 50px;
+    p{
+      color: #000;
+      margin-top: -20px;
+    }
+  }
+}
+.div2{
+  float: left;
+  ul{
+    list-style:none;
+    float: left;
+    li {
+      float: left;
+      a {
+        display: block;
+        text-decoration: none;
+        width: 75px;
+        height: 60px;
+        border-left: 1px solid gainsboro;
+        line-height: 60px;
+        text-align: center;
+        color: #000;
+        font-size: 14px;
+        &:hover{
+          background: #F5F5F5;
+        }
+      }
+    }
+  }
+}
+.section1{
+  width: 100%;
+  height: 440px;
+  background: #00A699;
+  color: white;
+  border: 1px solid black;
+  p{
+    font-size: 52px;
+    font-weight: bold;
+    position: relative;
+    top: 125px;
+    left: 485px;
+  }
+  div{
+    width: 950px;
+    height: 80px;
+    background: white;
+    position: relative;
+    top: 160px;
+    left: 270px;
+    img{
+      width: 35px;
+      height: 35px;
+      margin-top: 25px;
+      margin-left: 25px;
+      float: left;
+    }
+    input{
+      height: 60px;
+      width: 800px;
+      font-size: 20px;
+      float: left;
+      outline: 0;
+      border: 1px solid white;
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+  }
+}
+.section2{
+  width: 100%;
+  height: 610px;
+  #top{
+    width: 100%;
+    height: 60px;
+    border: 1px solid #DCE0E0;
+    a{
+      color: #757575;
+      display: block;
+      margin-left: 160px;
+      font-size: 18px;
+      padding-top: 16px;
+    }
+  }
+  #center1,.bottom{
+    float: left;
+    width: 300px;
+    height: 450px;
+    margin-top: 50px;
+    margin-left: 150px;
+    ul{
+      list-style: none;
+      margin-top: 10px;
+      li{
+        font-size: 18px;
+        width: 160px;
+        cursor: pointer;
+        height: 30px;
+        display: block;
+        color: #757575;
+        margin-top: 5px;
+        &:hover{
+          color: #BBBBBB;
+        }
+      }
+    }
+  }
+  #center2{
+    display: none;
+    float: left;
+    width: 300px;
+    height: 450px;
+    margin-top: 50px;
+    margin-left: 150px;
+    ul{
+      list-style: none;
+      margin-top: 10px;
+      a{
+        font-size: 18px;
+        width: 160px;
+        height: 30px;
+        display: block;
+        color: #757575;
+        margin-top: 5px;
+        &:hover{
+          color: #BBBBBB;
+        }
+      }
+      #li1{
+        color: #00A699;
+        font-size: 18px;
+        padding-bottom: 10px;
+        cursor: pointer;
+      }
+      .li2{
+        font-weight: bolder;
+        color: black;
+      }
+    }
+  }
+  .bottom{
+    float: left;
+    width: 900px;
+    height: 450px;
+    margin-left: 20px;
+     ul{
+       list-style: none;
+       img{
+         width: 20px;
+         height: 20px;
+         float: left;
+         margin-top: 30px;
+         margin-right: 10px;
+       }
+       .li1{
+         p{
+             font-size: 38px;
+             margin-top: -5px;
+         }
+         div{
+             width: 70px;
+             height: 1px;
+             border-bottom: 1px solid gainsboro;
+             margin-top: 20px;
+          }
+       }
+       .li2 {
+         height: 80px;
+         width: 700px;
+         float: left;
+         line-height: 80px;
+         border-bottom: 1px solid gainsboro;
+         a {
+           color: #484848;
+           font-size: 18px;
+           &:hover {
+             text-decoration: underline;
+             color: #484848;
+           }
+         }
+       }
+     }
+}
+}
+footer {
+  width: 100%;
+  height: 520px;
+  background-image: url("../img/background-317dd7c2cb678ddbdb0a983d511cb9a0.png");
+  background-repeat: no-repeat;
+  background-size: 100% 520px;
+  background-color: #2B2D2E;
+  .select1 {
+    margin-left: 160px;
+    width: 300px;
+    height: 200px;
+    float: left;
+    margin-top: 50px;
+    .select1_1, .select1_2 {
+      width: 250px;
+      height: 50px;
+      font-size: 18px;
+      background: #484848;
+      opacity: 1;
+      color: white;
+      border: 1px solid #2B2D2E;
+    }
+    .select1_2 {
+      margin-top: 15px;
+    }
+    .p1, .p2, .p3 {
+      color: white;
+    }
+  }
+  .gs, .find, .lend {
+    float: left;
+    width: 190px;
+    height: 220px;
+    margin-top: 50px;
+    p{
+      font-size: 18px;
+      font-weight: bold;
+      color: white;
+    }
+    ul{
+      margin-top: 20px;
+      list-style:none;
+      a{
+        color: white;
+        font-size: 15px;
+        margin-top: 5px;
+        &:hover{
+          color: #B5B5AC;
+        }
+      }
+    }
+  }
+  .hr{
+    border-bottom: 1px solid #B5B5AC;
+    clear: both;
+    width: 1100px;
+    height: 1px ;
+    margin-left: 150px;
+    position: relative;
+    top: 50px;
+  }
+  .bottom{
+    color: white;
+    margin-left: 600px;
+    margin-top: 65px;
+    .p7{
+      font-size: 18px;
+      color: gainsboro;
+    }
+    .bott1,.bott2{
+      width: 35px;
+      height: 35px;
+      border: 1px solid #B5B5AC;
+      border-radius: 50px;
+      margin-top: 15px;
+      margin-left: -11px;
+      &:hover{
+        opacity: 0.7;
+      }
+    }
+    .bott2{
+      position: relative;
+      left: 55px;
+      top: -53px;
+    }
+    img{
+      width: 20px;
+      height: 20px;
+      margin-top: 5px;
+      margin-left: 8px;
+    }
+    .p8{
+      font-size: 16px;
+      color: gainsboro;
+      opacity: 0.6;
+      margin-top: -45px;
+      margin-left: -20px;
+    }
+  }
+}
