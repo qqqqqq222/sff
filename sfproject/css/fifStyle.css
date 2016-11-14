@@ -1,0 +1,251 @@
+@charset "utf-8";
+.section5-1{
+    width: 100%;
+    height: 720px;
+}
+.section5-1 .section5-img{
+    width: 100%;
+    height: 720px;
+    background: url("../img/images/5-1.jpg") no-repeat;
+}
+.section5-1 .div1-p1{
+    width: 200px;
+    height: 60px;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 微软雅黑;
+    margin-top: -650px;
+    margin-left: 70px;
+}
+.div1-img{
+    width: 80px;
+    height: 60px;
+    background-image: url("../img/images/5-10.png");
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.section5-1 .div1-p2{
+    width: 530px;
+    height: 45px;
+    font-size: 14px;
+    margin-left: 70px;
+}
+.section5-a1{
+    width: 255px;
+    height: 195px;
+    position: relative;
+    left: 70px;
+    top: 20px;
+    float: left;
+    overflow: hidden;
+}
+.section5-1 .section5-div1{
+    width: 255px;
+    height: 195px;
+    overflow: hidden;
+}
+.section5-1 .section5-div1:hover{
+    transition: 0.5s ease all;
+    transform: scale(1.2,1.2);
+}
+.section5-a2{
+    background: #024893;
+
+}
+.section5-a2 .img{
+    width: 80px;
+    height: 80px;
+    margin-left: 80px;
+    margin-top: 40px;
+    background-image: url("../img/images/5-3.png");
+    background-position: 0 -7px;
+}
+.section5-a2:hover .img,.section5-a3:hover .img,.section5-a5:hover .img{
+    transition: 0.25s ease all;
+    margin-top: -0.1px;
+}
+
+
+.section5-a3 p,.section5-a2 p,.section5-a5 p{
+    color: white;
+    width: 70px;
+    height: 30px;
+    position: absolute;
+    left: 90px;
+    top: 120px;
+}
+
+.section5-a3{
+    margin-top: 30px;
+    float: left;
+    clear: both;
+    background: red;
+}
+.section5-a3 .img{
+    width: 85px;
+    height: 87px;
+    margin-left: 80px;
+    margin-top: 40px;
+    background-image: url("../img/images/5-3.png");
+    background-position: 0 -88px;
+}
+.section5-a5{
+    background: #6CB5FF;
+}
+.section5-a5 .img{
+    width: 85px;
+    height: 87px;
+    margin-left: 80px;
+    margin-top: 40px;
+    background-image: url("../img/images/5-3.png");
+    background-position: 0 -170px;
+}
+
+
+.section5-2{
+    width: 100%;
+    height: 420px;
+}
+.section5-2 .section2-div1{
+    width: 540px;
+    height: 300px;
+    margin-left: 80px;
+    margin-top: 50px;
+    float: left;
+}
+.section5-2 .div1-a1{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 微软雅黑;
+    margin-top: 20px;
+    color: #000;
+}
+.section5-2 .div1-a1:hover{
+    color: #07528C;
+}
+.section5-2 .div1-1{
+    margin-top: 20px;
+    width: 265px;
+    height: 233px;
+}
+.section5-2 .aa{
+    width: 265px;
+    height: 233px;
+}
+.section5-2 .div1-1 .img1{
+    width: 265px;
+    height: 233px;
+    overflow: hidden;
+    float: left;
+
+}
+.section5-2 .tu1{
+    width: 265px;
+    height: 233px;
+    background-image: url("../img/images/5-8.jpg");
+
+}
+.section5-2 .div1-1 .img1:hover .tu1{
+    transition: 0.5s ease all;
+    transform: scale(1.2,1.2);
+}
+.div1-a2{
+    width: 250px;
+    height: 233px;
+    float: right;
+    background: #6CB5FF;
+    position: relative;
+    left: -25px;
+    top: -233px;
+}
+.sanjiao {
+    border-width: 25px;
+    border-color: transparent transparent transparent #6CB5FF;
+    border-style: solid;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    margin-left: -25px;
+    margin-top: 0;
+    transform: rotate(315deg);
+}
+.div1-a2 .div1-p1{
+    color: white;
+    font-size: 15px;
+    font-family: 微软雅黑;
+    margin-top: -10px;
+    margin-left: 40px;
+}
+.div1-a2 .div1-p2{
+    color: white;
+    font-size: 13px;
+    font-family: 微软雅黑;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.section2-div2{
+    width: 620px;
+    height: 290px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+.section2-div2 .div2-1{
+    width: 620px;
+    height: 115px;
+    border-bottom: 1px solid #E0E2E9;
+}
+.div2-1 .img{
+    width: 50px;
+    height: 80px;
+    background-image: url("../img/images/5-9.png");
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    margin-top: 20px;
+    float: left;
+}
+.div2-1 .img p{
+    font-size: 40px;
+    color: white;
+    padding-left: 10px;
+}
+.div2-1 .p1{
+    width: 500px;
+    height: 30px;
+    display: block;
+    font-size: 16px;
+    color: #6050A7;
+    font-family: 微软雅黑;
+    font-weight: bold;
+    position: relative;
+    left: -180px;
+    top: 10px;
+    float: right;
+}
+.div2-1 .div2-p2{
+    width: 580px;
+    display: block;
+    height: 70px;
+    color: #000;
+    font-family: 微软雅黑;
+    font-size: 13px;
+    clear: right;
+    margin-top: 25px;
+    margin-left: 75px;
+}
+.div2-1 .div2-p2 span{
+    font-size: 13px;
+    color: #6050A7;
+    font-weight: bold;;
+}
+.div2-1 .p1,.div2-1 .div2-p2:hover{
+    color: #07528C;
+}
+.section5-2 .div2-2{
+    margin-top: 15px;
+}
+.div2-2 .div2-p3{
+    position: relative;
+    top: 10px;
+
+}
